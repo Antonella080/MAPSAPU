@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <fragment
+        android:id="@id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="958dp"
+        android:layout_height="1334dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginLeft="-14dp"
+        android:translationX="20dp"
+        android:translationY="450dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="206dp"
+        android:layout_height="76dp"
+        android:hint="Enter Your Location"
+        android:inputType="textPersonName"
+        android:translationX="00dp"
+        android:translationY="00dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="113dp"
+        android:layout_height="84dp"
+        android:onClick="Search"
+        android:text="Buscar"
+        android:translationX="210dp"
+        android:translationY="00dp"
+        app:backgroundTint="#E09EEC" />
+
+
+</RelativeLayout>
